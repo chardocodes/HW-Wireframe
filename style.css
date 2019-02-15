@@ -1,51 +1,60 @@
-
 body {
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
+    background-color: #777;
+    width:960px;
+    margin:0 auto;
 } 
 
 #header {
-    float: center;
-    color; #777;
-    width: 960px;
+    color: #777;
     text-align: center;
     border-style: round;
     padding: 20px;
-    margin-bottom: 20px;
     color: #777;
     background: #ebebeb;
-
+    margin-bottom: 11px;
 }
 
 #nav {
-    clear: both;
-    float: center;
-    width: 960px;
     text-align: center;
     border-style: round;
     padding: 20px;
-    margin-bottom: 20px;
     color: #777;
     background: #ebebeb;
 }
 
 #section {
-    clear: both;
     float: left;
     text-align: center;
     border-style: round;
-    width: 55%;
+    width: 495px;
     height: 290px;
     padding: 20px;
-    margin-bottom: 20px;
+    /* margin: 0px; */
     color: #777;
     background: #ebebeb;
+    float: left;
+    margin-top: 10;
+    margin-top: 10px;
+}
+
+#article {
+    background-color:#777;
+    text-align: center;
+    color:#ebebeb;
+    widows: 50px;
+    height: 251px;
+    /* margin-bottom: 20px; */
+    margin-top: 28px;
+    margin-left: -7px;
+    margin-right: -8px;
 }
 
 #aside {
-    clear: both;
-    float: right;
-    width: 43%;
+    /* clear: both; */
+    float: left;
+    width: 10;
     text-align: center;
     border-style: round;
     height: 290px;
@@ -53,13 +62,34 @@ body {
     margin-bottom: 20px;
     color: #777;
     background: #ebebeb;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 375px;
 }
 
+#h1 {
+    color: #777;
+    background: #ebebeb;
+    padding: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -10px;
+}
+
+#paragraph {
+    color: #777;
+    background: #ebebeb;
+    padding: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 #footer {
         position: relative;
         margin-top: -180px;
-        /* negative value of footer height */
-        height: 180px;
+        /* margin:60px; */
+        padding: 28px;
+        text-align: center;
         clear: both;
-        background-color: red;
+        background-color:#ebebeb;
 }
